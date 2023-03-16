@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    border: 5px solid grey;
+    
+}
+
+body{
+    margin: 14px 28px;
+
+}
+.container{
+    background-color: whitesmoke;
+    border: solid 10px blue;
+    padding: 5px 30px 15px 20px;
+    border-radius: 20px;
+}
+input[type= "text"],
+input[type= "email"],
+input[type= "number"],
+input[type= "password"],
+input[type= "date"],
+textarea,select{
+    width:100%;
+    padding:8px;
+    border: black dotted 2px;
+    border-radius: 4px;
+    margin: 10px;
+}
+fieldset{
+    background-color: white;
+
+}
+input[type="reset"].a{
+    background-color: black;
+    color: aliceblue;
+    
+    margin: 30 30 30 30;
+    padding: 20px 10px;
+    font-size: larger;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    padding: 20px 10px;;
+    background-color: aqua;
+    border: none;
+    color: white;
+    margin: 30 30 30 30 ;
+    font-size: larger;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer{
+    border: black solid 4px;
+}
+footer a{
+    border:black dotted 2px ;
+    
+}
+footer a:hover{
+    background-color: chartreuse;
+    
+}
+input[type="submit"]:hover{
+    background-color: aquamarine;
+}
+input[type="reset"]:hover{
+    background-color:grey;
+    border: tomato 2px dotted;
+}
+nav{
+    background-color: black;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    border-radius: 30px;
+    
+}
+button{
+    background-color: rgb(7, 249, 168);
+    color: snow;
+    border-radius: 10px;
+}

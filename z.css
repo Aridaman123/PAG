@@ -1,0 +1,92 @@
+*{
+    background-color: aquamarine;
+    
+    
+
+
+    
+}
+table,th,td{
+    border: black 2px solid;
+     border-spacing: 0;
+    padding: 15px;
+    margin:70px;
+    background-color: rgb(255, 255, 250);
+
+     
+
+}
+
+th{
+    background-color: rgba(0, 47, 255, 0.763);
+}
+em{
+    border: 3px tomato dotted;
+}
+img{
+
+    width: 50%;
+    height: 100%;
+    margin-left: 170px;
+    
+    
+}
+.b{
+    border: black dotted 2px;
+    font-size: 30px;
+    background-color: blue;
+    border-radius: 10px;
+    color: aliceblue;
+    
+    
+}
+.b:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.v{
+    border: black 3px solid;
+
+}
+.h{
+     background-color: aquamarine;
+      
+}
+h1{
+    text-align: center;
+    background-color: yellowgreen;
+    border: dotted;
+}
+h1 .f{
+    text-align: center;
+    font-style: italic;
+    background-color: crimson;
+}
+.clip-circle{
+    clip-path: circle(50% at 50% 50%);
+}
+body{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+@media screen and(max-width:700px) {
+    
+     a span:before{
+       background: url("gmail.png");
+       
+    
+    }
+
+}
+@media not all and(orientation:landscape){
+    body{
+        background-color: dodgerblue;
+    }
+}
+    
+

@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <title>Payment form</title>
+  <link rel="stylesheet" href="Y.css">
+</head>
+
+<body>
+
+
+
+  <div class="container"> <!--use of Form element-->
+    <form action="" class="from1">
+      <h1>PAYMENT FORM</h1>
+      <hr>
+      <nav>
+        <button><a class="ari" href="./aridaman.html">Aridaman</a></button>
+        <button>ABOUT US</button>
+        <button>BACK</button>
+      </nav>
+      <h2>Contact Information</h2>
+      <p>First Name: * <input type="text" name="first_name" placeholder="xyz" required></p>
+
+
+
+
+      <input type="reset" name="reset" value="reset">
+      <fieldset>
+
+        <legend>Gender</legend> <!--use of fieldset and legend element-->
+        <!--use of radio element-->
+        <p>
+          Male <input type="radio" name="gender" id="male" required>
+          Female<input type="radio" name="gender" id="female" required>
+
+          <strong>important</strong>
+          <!--use of border style-->
+
+        </p>
+      </fieldset>
+
+      Address: <textarea name="address" id="address" cols="100" rows="5"
+        placeholder="Enter your address here:"></textarea>
+      <hr> <!--use of text area,email,number-->
+      Email:id <input type="email" name="Email" id="email" required placeholder="xyz@gmail.com">
+      <hr>
+      Pincode: <input type="number" name="number" id="number" required placeholder="111111">
+      </p>
+
+
+
+
+      <h2>payment information</h2>
+
+      <p>
+        Card type:*
+        <select name="card_type" id="card_type" required>
+          <option value=" ">--select a Card type--</option>
+          <option value="visa">Visa</option>
+          <option value="rupay">rupay</option>
+          <option value="mastercard">Mastercard</option>
+          <option value="other card">other card</option>
+        </select>
+        <hr>
+        Card number:*<input type="number" name="CARD_NO" id="CARD_NO" required placeholder="1111-2222-3333-4444">
+      </p>
+
+      <p>
+        Expiration Date: <input type="date" name="exp_date" id="exp_date">
+        <br>
+        CVV *: <input type="password" name="password" id="password" required placeholder="123456">
+        <br>
+        <br>
+        <input type="reset" class="a"> <!--use of file , reset and submit element-->
+        <input type="submit" value="Pay now">
+
+      </p>
+
+    </form>
+    <footer>
+      <a href="index.html">HOME</a>
+      <a href="page.html">WEBPAGE</a>
+    </footer>
+  </div>
+</body>
+
+
+</html>

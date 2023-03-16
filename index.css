@@ -1,0 +1,29 @@
+li{
+    list-style-type: square;
+}
+p>i{
+    font-size: 40px;
+    color: rgb(166, 255, 0);
+    background-color: black;
+}
+*{
+    border-style: ridge;
+    background-color: lightgreen;
+}
+h1{
+    text-align: center;
+    background-color: yellowgreen;
+}
+#heading{
+    text-align: center;
+    background-color: aqua;
+}
+ul .a{
+    color: orangered;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+    
+}
